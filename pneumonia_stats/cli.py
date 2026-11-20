@@ -656,7 +656,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     wilson = sub.add_parser(
         "wilson", parents=[common],
-        help="Wilson 95% intervals for one prediction CSV",
+        help="Wilson score 95%% intervals for one prediction CSV",
     )
     wilson.add_argument("--csv", required=True)
     wilson.set_defaults(func=cmd_wilson)
