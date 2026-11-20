@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and model artefacts (never commit these)
+data/
+chest_xray/
+*.pth
+*.npy
+*.h5
+*.onnx
+outputs/
+demo_output/
+
+# Generated analysis files
+test_predictions.csv
+*_predictions.csv
+statistical_results.json
+
+# Operating system / editors
+.DS_Store
+.idea/
+.vscode/
+demo_output/

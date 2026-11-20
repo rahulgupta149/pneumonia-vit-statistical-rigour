@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the repository or the associated dissertation."
+title: "Pneumonia Detection with Vision Transformers: Paired Statistical Comparison"
+abstract: "A Vision Transformer pipeline for paediatric chest X-ray pneumonia classification, with paired statistical significance testing (exact McNemar, DeLong AUC, paired bootstrap, Wilson intervals and Holm-Bonferroni correction)."
+authors:
+  - family-names: Gupta
+    given-names: Rahul
+    affiliation: "Southampton Solent University"
+version: 1.0.0
+date-released: 2026-11-20
+license: MIT
+type: software
+keywords:
+  - pneumonia
+  - chest X-ray
+  - vision transformer
+  - McNemar
+  - DeLong
+  - bootstrap

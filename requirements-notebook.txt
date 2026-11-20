@@ -1,0 +1,13 @@
+# Full environment for running the training notebook locally.
+# Kaggle already provides these packages; this file is for local execution.
+-r requirements.txt
+
+torch>=2.0
+torchvision>=0.15
+timm>=0.9
+opencv-python-headless>=4.8
+pillow>=10.0
+matplotlib>=3.7
+seaborn>=0.13
+tqdm>=4.66
+jupyterlab>=4.0
